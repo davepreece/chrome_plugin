@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    display: grid;
+    min-width: 400px;
+}
+
+input {
+    outline: aquamarine;
+    height: 3em;
+    border-radius: 3px;
+    font-size: 1em;
+    text-indent: 1em;
+    border: 2px solid #5f9341;
+}
+
+#button-el {
+    display: flex;
+}
+
+#input-btn {
+    margin-top: 0.5em;
+    width: 10em;
+    height: 2.5em;
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: #5f9341;
+    border-radius: 3px;
+    
+}
+
+#delete-btn {
+    margin-top: 0.5em;
+    width: 10em;
+    height: 2.5em;
+    color: #5f9341;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: white;
+    border: 2px solid #5f9341;
+    margin-left: 0.5em;
+    border-radius: 3px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+
+}
+
+a {
+    color: #5f9341;
+    font-weight: bold;
+
+}
